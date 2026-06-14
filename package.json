@@ -1,0 +1,11 @@
+{
+  "name": "priority-queue-x",
+  "version": "1.0.0",
+  "description": "Zero-dep binary heap priority queue with min/max heaps, custom comparators, update, merge, k-way merge, nsmallest/nlargest.",
+  "main": "src/index.cjs",
+  "bin": { "pq": "src/cli.cjs" },
+  "scripts": { "test": "node --test test/" },
+  "keywords": ["priority-queue","binary-heap","heap","min-heap","max-heap","data-structure","kway-merge"],
+  "license": "MIT",
+  "author": "sulthonzh"
+}
