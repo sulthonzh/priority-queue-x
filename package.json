@@ -25,5 +25,12 @@
   ],
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "exports": {
+    ".": {
+      "require": "./src/index.cjs",
+      "import": "./src/index.js"
+    }
+  },
+  "type": "commonjs"
 }
