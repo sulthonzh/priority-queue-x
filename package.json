@@ -23,9 +23,6 @@
   "files": [
     "src/"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "exports": {
     ".": {
       "require": "./src/index.cjs",
